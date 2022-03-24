@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #FFC857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.board{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.cell{
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 95px;
+    cursor: pointer;
+    user-select: none;
+}
+.score{
+    height: 100px;
+    width: 298px;
+    font-size: 20px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+}
+.BTN{
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    top : 520px
+}
+.textX{
+    position: absolute;
+    margin: 0 auto;
+    left: 0px;
+    width: 140px;
+    border: 2px solid black;
+}
+.textO{
+    position: absolute;
+    margin: 0 auto;
+    right: 0px;
+    width: 140px;
+    border: 2px solid black;
+}
+#player_X{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+#player_O{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+#reset{
+    height: 20px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#restart{
+    height: 20px;
+    width: 100px;
+    margin: 0 auto;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
